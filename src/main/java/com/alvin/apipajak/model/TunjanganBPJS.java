@@ -1,10 +1,19 @@
 package com.alvin.apipajak.model;
 
 public class TunjanganBPJS {
+    private Long id;
     private Boolean jaminanKecelakaanKerja;
     private Boolean jaminanHariTua;
     private Boolean jaminanKematian;
     private Boolean jaminanPensiun;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Boolean getJaminanKecelakaanKerja() {
         return jaminanKecelakaanKerja;
